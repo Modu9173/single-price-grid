@@ -1,0 +1,57 @@
+body {
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  background-color: #e5eff5; }
+
+div {
+  padding: 30px 20px 30px 20px;
+  border-radius: 10px;
+  width: 600px; }
+
+/*Top Container*/
+.top-container {
+  background-color: #ffffff; }
+
+.top-heading {
+  color: #2ab2af;
+  font-size: 700; }
+
+.top-sub-heading {
+  color: #c0df34;
+  font-size: 400; }
+
+.top-benefit {
+  color: #98a6bd; }
+
+/*Pricing*/
+.pricing {
+  background-color: #2ab2af; }
+
+.pricing-title {
+  color: #ffffff; }
+
+.pricing-price {
+  color: #ffffff; }
+
+.pricing-access {
+  color: #ffffff; }
+
+/*Service*/
+.service {
+  background-color: #2ab2af; }
+
+.service-title {
+  font-size: 400;
+  color: #ffffff; }
+
+.service-list {
+  list-style: none;
+  color: #ffffff; }
+
+/*Footer*/
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
