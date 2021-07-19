@@ -7,25 +7,27 @@ $color-neutral-1: #e5eff5;
 $color-neutral-2: #98a6bd;
 $color-neutral-3: #ffffff;
 
-
-
-
 body {
   font-size: 16px;
   font-family: 'Karla', sans-serif;
   background-color: $color-neutral-1;
 }
 
-div {
+.container {
   padding: 30px 20px 50px 20px;
   border-radius: 10px;
-  width: 600px;
+  width: 500px;
 }
 
 /*Top Container*/
-.top-container {
+.header {
   background-color: $color-neutral-3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
+
 .top-heading {
   color: $color-primary-1;
   font-size: 700;
@@ -40,43 +42,3 @@ div {
   color: $color-neutral-2;
 }
 
-/*Pricing*/
-  .pricing {
-    background-color: $color-primary-1;
-  }
-
-  .pricing-title {
-    color: $color-neutral-3;
-  }
-
-  .pricing-price {
-    color: $color-neutral-3;
-  }
-
-  .pricing-access {
-    color: $color-neutral-3;
-  }
-
-/*Service*/
-  .service {
-    background-color: $color-primary-1;
-  }
-
-  .service-title {
-    font-size: 400;
-    color: $color-neutral-3;
-  }
-
-  .service-list {
-  list-style: none;
-  color: $color-neutral-3;
-  }
-/*Footer*/
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: $color-primary-3;
-}
