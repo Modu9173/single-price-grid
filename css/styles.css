@@ -9,7 +9,7 @@ body {
 .containers {
   display: grid;
   grid-template-columns: repeat(2, 300px);
-  grid-template-rows: repeat(2, 250px);
+  grid-template-rows: repeat(2, 270px);
   justify-content: center;
   margin-top: 100px;
 
@@ -81,6 +81,8 @@ body {
      background-color: #c0df34;
      color: #ffffff;
      border: none;
+     margin-top: 20px;
+      box-shadow: 5px 5px rgba(120, 120, 120, 0.1);
    }
 
  /*Service*/
@@ -89,7 +91,7 @@ body {
      grid-area: 2 / 2 / 3 / 3;
      border-bottom-right-radius: 10px;
      opacity: 0.9;
-     padding: 30px 0 40px 40px;
+     padding: 20px 0 40px 40px;
    }
 
    .service-title {
