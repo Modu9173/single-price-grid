@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Check out my solution](https://www.frontendmentor.io/solutions/four-card-feature-section-using-css-grid-and-flexbox-p-rGH20qL)
-- Live Site URL: [Check out my live site](https://modu9173.github.io/Four-Card-Feature-Project/)
+- Live Site URL: [Check out my live site](https://modu9173.github.io/single-price-grid/)
 
 ### Built with
 - CSS Grid
